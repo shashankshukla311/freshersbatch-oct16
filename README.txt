@@ -1,2 +1,1 @@
-This is the Dummy assignment projrct
-in this i have to do nothing
+This is the Dummy assignment project for CG traning
