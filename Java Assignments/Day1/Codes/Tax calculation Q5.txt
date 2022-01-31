@@ -1,0 +1,28 @@
+// Program to Calculate Tax //
+
+package java1;
+import java.util.Scanner;
+public class Incometax {
+	public static void main(String[]args) {
+		Scanner In=new Scanner(System.in);
+		System.out.println("Enter you ctc");
+		int ctc=In.nextInt();
+		int tax;
+		if(ctc<=180000) {
+			System.out.println("Nil");
+		}
+		else if(ctc<=300000) {
+			tax=ctc*10/100;
+			System.out.println("Tax amount is :"+tax);
+		}
+		else if(ctc<=500000) {
+			tax=ctc*20/100;
+			System.out.println("Tax amount is :"+tax);
+		}
+		else if(ctc<1000000) {
+			tax=ctc*30/100;
+			System.out.println("Tax aamount is :"+tax);
+		}
+	}
+
+}
